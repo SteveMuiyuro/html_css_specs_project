@@ -1,0 +1,113 @@
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  background-color: rgb(197, 50, 94);
+  height: 25px;
+  width: 80px;
+  color: white;
+  border-radius: 5px;
+}
+
+.headers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.content > .first_paragraph {
+  width: 680px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.first_item {
+  display: flex;
+  justify-content: space-around;
+  width: 680px;
+  margin: auto;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.icons {
+  width: 250px;
+  height: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icons img {
+  height: 20px;
+  padding: 5px 5px;
+  padding-bottom: 5px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  width: 680px;
+  margin: auto;
+}
+
+.image img {
+  width: 680px;
+  height: fit-content;
+}
+
+.paragraphs {
+  width: 680px;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+}
+
+.courses {
+  display: flex;
+  justify-content: space-between;
+  width: 680px;
+  margin: auto;
+}
+
+.courses span {
+  font-weight: 700;
+}
+
+.footer_items {
+  display: flex;
+  justify-content: space-between;
+  width: 680px;
+  margin: auto;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.contacts li {
+  list-style: none;
+  display: inline-block;
+  font-size: small;
+  padding: 10px;
+}
+
+.footer_items img {
+  height: 50px;
+}
